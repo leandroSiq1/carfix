@@ -159,12 +159,19 @@ section.galery {
     width: 100%;
     height: 570px;
 
-    background:rgb(60, 112, 255);
+    background-image: url('/images/engrenagem.jpg');
+    background-size: cover;
+}
+
+div.box-galery-container {
+    width: 100%;
+    height: 100%;
+
+    background: rgba(2, 78, 243, 0.8);
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
 }
 
 section.galery h1 {
@@ -271,6 +278,59 @@ div.galery-map div.img.select {
     opacity: 1;
     transform: scale(1.1);
     z-index: 20; 
+}
+
+/* =========Footer*/
+footer {
+    width: 100%;
+    height: 360px;
+
+    background: #fff;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    font-family: sans-serif;
+    text-align: center;
+}
+
+footer > img {
+    padding: 60px 0 20px 0;
+}
+
+footer h1 {
+    font-size: 22px;
+    
+}
+
+footer p.location {
+    font-size: 15px;
+    padding: 20px;
+    color: #a9a9a9;
+}
+
+footer nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+footer nav ul li {
+    margin-left: 8px;
+    padding-bottom: 30px;
+}
+
+footer a img {
+    width: 35px;
+    height: 35px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer span {
+    font-weight: bold;
 }
 
 @keyframes animate {
