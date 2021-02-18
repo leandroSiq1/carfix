@@ -2,6 +2,6 @@
 
 <div align="center">
     <p align="center">
-        <img windth="470" src="/images/landing.png">
+        <img windth="500" src="/images/landing.png">
     </p>
 </div>
